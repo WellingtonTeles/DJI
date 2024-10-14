@@ -174,6 +174,7 @@ const HomeWrapper = styled.div`
     margin-left: auto;
     margin-right: auto;
     padding-top: 26px;
+    background-color: black;
     display: flex;
     justify-content: center;
     gap: 176px;
@@ -225,7 +226,7 @@ const HomeWrapper = styled.div`
     margin-right: auto;
   }
   .is-desktop {
-    display: block;
+    display: flex;
   }
   .is-mobile {
     display: none;
@@ -235,7 +236,7 @@ const HomeWrapper = styled.div`
       display: none;
     }
     .is-mobile {
-      display: block;
+      display: flex;
     }
   }
 `;
